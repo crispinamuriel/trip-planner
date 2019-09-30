@@ -9,6 +9,21 @@ body {
 }
 
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  flex-grow: 2;
+}
+
+nav {
+  background-color: orange;
+}
+
+#view {
+  display: flex;
+
+}
+
+#menu {
+  flex-grow: 1;
+  background-color: yellow;
 }
